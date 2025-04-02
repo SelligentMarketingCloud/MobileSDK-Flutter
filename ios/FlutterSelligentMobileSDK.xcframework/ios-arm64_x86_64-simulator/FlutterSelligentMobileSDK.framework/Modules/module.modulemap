@@ -1,0 +1,4 @@
+framework module FlutterSelligentMobileSDK {
+  header "FlutterSelligentMobileSDK-Swift.h"
+  requires objc
+}

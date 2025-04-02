@@ -1,0 +1,2198 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FlutterSelligentMobileSDK",
+    "printedName": "FlutterSelligentMobileSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterSelligentEventHandlerProtocol",
+        "printedName": "FlutterSelligentEventHandlerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendBroadcastEvent",
+            "printedName": "sendBroadcastEvent(name:type:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FlutterSelligentMobileSDK@objc(pl)FlutterSelligentEventHandlerProtocol(im)sendBroadcastEventWithName:type:data:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB20EventHandlerProtocolP013sendBroadcastE04name4type4dataySS_SSSDys11AnyHashableVypGSgtF",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol>",
+            "sugared_genericSig": "<Self where Self : FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@FlutterSelligentMobileSDK@objc(pl)FlutterSelligentEventHandlerProtocol",
+        "mangledName": "$s25FlutterSelligentMobileSDK0aB20EventHandlerProtocolP",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterSelligent",
+        "printedName": "FlutterSelligent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventDelegate",
+            "printedName": "eventDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterSelligentEventHandlerProtocol",
+                    "printedName": "any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
+                    "usr": "c:@M@FlutterSelligentMobileSDK@objc(pl)FlutterSelligentEventHandlerProtocol"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cpy)eventDelegate",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C13eventDelegateAA0aB20EventHandlerProtocol_pSgvpZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterSelligentEventHandlerProtocol",
+                        "printedName": "any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
+                        "usr": "c:@M@FlutterSelligentMobileSDK@objc(pl)FlutterSelligentEventHandlerProtocol"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)eventDelegate",
+                "mangledName": "$s25FlutterSelligentMobileSDK0aB0C13eventDelegateAA0aB20EventHandlerProtocol_pSgvgZ",
+                "moduleName": "FlutterSelligentMobileSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlutterSelligentEventHandlerProtocol",
+                        "printedName": "any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
+                        "usr": "c:@M@FlutterSelligentMobileSDK@objc(pl)FlutterSelligentEventHandlerProtocol"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)setEventDelegate:",
+                "mangledName": "$s25FlutterSelligentMobileSDK0aB0C13eventDelegateAA0aB20EventHandlerProtocol_pSgvsZ",
+                "moduleName": "FlutterSelligentMobileSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25FlutterSelligentMobileSDK0aB0C13eventDelegateAA0aB20EventHandlerProtocol_pSgvMZ",
+                "mangledName": "$s25FlutterSelligentMobileSDK0aB0C13eventDelegateAA0aB20EventHandlerProtocol_pSgvMZ",
+                "moduleName": "FlutterSelligentMobileSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configureWithLaunchOptions",
+            "printedName": "configureWithLaunchOptions(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)configureWithLaunchOptions:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C26configureWithLaunchOptionsyySDys11AnyHashableVypGFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterSelligent",
+                "printedName": "FlutterSelligentMobileSDK.FlutterSelligent",
+                "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(im)init",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0CACycfc",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getVersionLib",
+            "printedName": "getVersionLib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)getVersionLib",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C13getVersionLibSSyFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceId",
+            "printedName": "getDeviceId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)getDeviceId",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C11getDeviceIdSSyFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInAppMessageStylingTemplates",
+            "printedName": "setInAppMessageStylingTemplates(_:defaultTemplateId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FlutterSelligentMobileSDK.InAppMessageStylingTemplate]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppMessageStylingTemplate",
+                    "printedName": "FlutterSelligentMobileSDK.InAppMessageStylingTemplate",
+                    "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)InAppMessageStylingTemplate"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)setInAppMessageStylingTemplates:defaultTemplateId:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C31setInAppMessageStylingTemplates_17defaultTemplateIdySayAA0fghiL0CG_SSSgtFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "executePushAction",
+            "printedName": "executePushAction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)executePushAction",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C17executePushActionyyFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyLogLevel",
+            "printedName": "applyLogLevel(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)applyLogLevel:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C13applyLogLevelyySaySiGFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enable",
+            "printedName": "enable(inAppMessages:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)enableInAppMessages:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C6enable13inAppMessagesySb_tFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "objc_name": "enableInAppMessages:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInAppMessages",
+            "printedName": "getInAppMessages()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[Swift.AnyHashable : Any]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)getInAppMessages",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C16getInAppMessagesSaySDys11AnyHashableVypGGyFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInAppMessageAsSeen",
+            "printedName": "setInAppMessageAsSeen(_:seen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)setInAppMessageAsSeen:seen:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C21setInAppMessageAsSeen_4seenSSSgSS_SbtFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInAppMessageAsDeleted",
+            "printedName": "setInAppMessageAsDeleted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)setInAppMessageAsDeleted:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C24setInAppMessageAsDeletedySSSgSSFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "executeButtonAction",
+            "printedName": "executeButtonAction(_:messageId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)executeButtonAction:messageId:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C19executeButtonAction_9messageIdSSSgSS_SStFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "displayNotification",
+            "printedName": "displayNotification(_:templateId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)displayNotification:templateId:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C19displayNotification_10templateIdySS_SSSgtFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "areInAppMessagesEnabled",
+            "printedName": "areInAppMessagesEnabled()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)areInAppMessagesEnabled",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C23areInAppMessagesEnabledSbyFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableNotifications",
+            "printedName": "enableNotifications(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)enableNotifications:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C19enableNotificationsyySbFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerForProvisionalRemoteNotification",
+            "printedName": "registerForProvisionalRemoteNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)registerForProvisionalRemoteNotification",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C40registerForProvisionalRemoteNotificationyyFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "displayLastReceivedRemotePushNotification",
+            "printedName": "displayLastReceivedRemotePushNotification(withTemplateId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)displayLastReceivedRemotePushNotificationWithTemplateId:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C41displayLastReceivedRemotePushNotification14withTemplateIdySSSg_tFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "objc_name": "displayLastReceivedRemotePushNotificationWithTemplateId:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastRemotePushNotification",
+            "printedName": "getLastRemotePushNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)getLastRemotePushNotification",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C29getLastRemotePushNotificationSDys11AnyHashableVypGSgyFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "displayLastReceivedNotification",
+            "printedName": "displayLastReceivedNotification()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)displayLastReceivedNotification",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C31displayLastReceivedNotificationyyFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)sendEvent:completion:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C9sendEvent_10completionySDys11AnyHashableVypG_ySb_SStctFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribeToEvents",
+            "printedName": "subscribeToEvents(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)subscribeToEvents:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C17subscribeToEventsyySaySSGFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRegisterForRemoteNotifications",
+            "printedName": "didRegisterForRemoteNotifications(withDeviceToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)didRegisterForRemoteNotificationsWithDeviceToken:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C33didRegisterForRemoteNotifications15withDeviceTokeny10Foundation4DataV_tFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "objc_name": "didRegisterForRemoteNotificationsWithDeviceToken:",
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToRegisterForRemoteNotificationsWithError",
+            "printedName": "didFailToRegisterForRemoteNotificationsWithError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)didFailToRegisterForRemoteNotificationsWithError:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C48didFailToRegisterForRemoteNotificationsWithErroryys0M0_pFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveRemoteNotification",
+            "printedName": "didReceiveRemoteNotification(_:fetchCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIBackgroundFetchResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIBackgroundFetchResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIBackgroundFetchResult",
+                        "printedName": "UIKit.UIBackgroundFetchResult",
+                        "usr": "c:@E@UIBackgroundFetchResult"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)didReceiveRemoteNotification:fetchCompletionHandler:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C28didReceiveRemoteNotification_22fetchCompletionHandlerySDys11AnyHashableVypG_ySo23UIBackgroundFetchResultVcSgtFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "willPresentNotification",
+            "printedName": "willPresentNotification(_:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UserNotifications.UNNotificationPresentationOptions) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNNotificationPresentationOptions",
+                        "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                        "usr": "c:@E@UNNotificationPresentationOptions"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)willPresentNotification:withCompletionHandler:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C23willPresentNotification_21withCompletionHandlerySo14UNNotificationC_ySo0K19PresentationOptionsVcSgtFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "willPresentNotification",
+            "printedName": "willPresentNotification(_:templateId:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UserNotifications.UNNotificationPresentationOptions) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UNNotificationPresentationOptions",
+                        "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                        "usr": "c:@E@UNNotificationPresentationOptions"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)willPresentNotification:templateId:withCompletionHandler:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C23willPresentNotification_10templateId21withCompletionHandlerySo14UNNotificationC_SSSgySo0M19PresentationOptionsVcSgtFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveNotificationResponse",
+            "printedName": "didReceiveNotificationResponse(_:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)didReceiveNotificationResponse:withCompletionHandler:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C30didReceiveNotificationResponse_21withCompletionHandlerySo014UNNotificationH0C_yycSgtFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveNotificationResponse",
+            "printedName": "didReceiveNotificationResponse(_:templateId:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent(cm)didReceiveNotificationResponse:templateId:withCompletionHandler:",
+            "mangledName": "$s25FlutterSelligentMobileSDK0aB0C30didReceiveNotificationResponse_10templateId21withCompletionHandlerySo014UNNotificationH0C_SSSgyycSgtFZ",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)FlutterSelligent",
+        "mangledName": "$s25FlutterSelligentMobileSDK0aB0C",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SelligentMobileSDK",
+        "printedName": "SelligentMobileSDK",
+        "declKind": "Import",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InAppMessageStylingTemplate",
+        "printedName": "InAppMessageStylingTemplate",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(templateId:styleOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessageStylingTemplate",
+                "printedName": "FlutterSelligentMobileSDK.InAppMessageStylingTemplate",
+                "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)InAppMessageStylingTemplate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SMInAppMessageStyleOptions",
+                "printedName": "SelligentMobileSDK.SMInAppMessageStyleOptions",
+                "usr": "c:@M@SelligentMobileSDK@objc(cs)SMInAppMessageStyleOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)InAppMessageStylingTemplate(im)initWithTemplateId:styleOptions:",
+            "mangledName": "$s25FlutterSelligentMobileSDK27InAppMessageStylingTemplateC10templateId12styleOptionsACSS_0bcD004SMInfg5StyleM0Ctcfc",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "objc_name": "initWithTemplateId:styleOptions:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InAppMessageStylingTemplate",
+                "printedName": "FlutterSelligentMobileSDK.InAppMessageStylingTemplate",
+                "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)InAppMessageStylingTemplate"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)InAppMessageStylingTemplate(im)init",
+            "mangledName": "$s25FlutterSelligentMobileSDK27InAppMessageStylingTemplateCACycfc",
+            "moduleName": "FlutterSelligentMobileSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FlutterSelligentMobileSDK@objc(cs)InAppMessageStylingTemplate",
+        "mangledName": "$s25FlutterSelligentMobileSDK27InAppMessageStylingTemplateC",
+        "moduleName": "FlutterSelligentMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SMManager",
+        "printedName": "SMManager",
+        "declKind": "Class",
+        "usr": "c:@M@SelligentMobileSDK@objc(cs)SMManager",
+        "mangledName": "$s18SelligentMobileSDK9SMManagerC",
+        "moduleName": "SelligentMobileSDK",
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 178,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 3,
+      "value": "103"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 3,
+      "value": "106"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 3,
+      "value": "107"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 3,
+      "value": "111"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "112"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 3,
+      "value": "113"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 182,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 2,
+      "value": "51"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 2,
+      "value": "53"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "BooleanLiteral",
+      "offset": 566,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 2,
+      "value": "91"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 2,
+      "value": "92"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 2,
+      "value": "93"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 2,
+      "value": "94"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 202,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 495,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 715,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "Dictionary",
+      "offset": 1179,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}
