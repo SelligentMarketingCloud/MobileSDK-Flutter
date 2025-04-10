@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "FlutterSelligentMobileSDK",
-    "printedName": "FlutterSelligentMobileSDK",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
     "children": [
       {
         "kind": "Import",
@@ -200,22 +200,6 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
         ]
       },
       {
@@ -339,12 +323,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "(any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol)?",
+                "printedName": "FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "FlutterSelligentEventHandlerProtocol",
-                    "printedName": "any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
+                    "printedName": "FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
                     "usr": "c:@M@FlutterSelligentMobileSDK@objc(pl)FlutterSelligentEventHandlerProtocol"
                   }
                 ],
@@ -373,12 +357,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol)?",
+                    "printedName": "FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FlutterSelligentEventHandlerProtocol",
-                        "printedName": "any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
+                        "printedName": "FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
                         "usr": "c:@M@FlutterSelligentMobileSDK@objc(pl)FlutterSelligentEventHandlerProtocol"
                       }
                     ],
@@ -410,12 +394,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol)?",
+                    "printedName": "FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "FlutterSelligentEventHandlerProtocol",
-                        "printedName": "any FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
+                        "printedName": "FlutterSelligentMobileSDK.FlutterSelligentEventHandlerProtocol",
                         "usr": "c:@M@FlutterSelligentMobileSDK@objc(pl)FlutterSelligentEventHandlerProtocol"
                       }
                     ],
@@ -1266,7 +1250,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Error",
-                "printedName": "any Swift.Error",
+                "printedName": "Swift.Error",
                 "usr": "s:s5ErrorP"
               }
             ],
@@ -1614,20 +1598,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1770,20 +1740,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1854,20 +1810,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1922,277 +1864,1425 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClientSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2448,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClientSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2497,
+      "length": 8,
+      "value": "\"group.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClientSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2573,
+      "length": 21,
+      "value": "\"group.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClientSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 2593,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/CustomEventHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 22,
+      "value": "\"TriggeredCustomEvent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Delegates\/FlutterSelligentInAppMessageDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 364,
+      "length": 24,
+      "value": "\"DisplayingInAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Delegates\/FlutterSelligentInAppMessageDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 24,
+      "value": "\"DisplayingInAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Delegates\/FlutterSelligentInAppMessageDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 442,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Delegates\/FlutterSelligentInAppMessageDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 178,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 3,
       "value": "103"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 257,
       "length": 3,
       "value": "104"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 280,
       "length": 3,
       "value": "105"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
       "length": 3,
       "value": "106"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 3,
       "value": "107"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 358,
       "length": 3,
       "value": "111"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 382,
       "length": 3,
       "value": "112"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 404,
       "length": 3,
       "value": "113"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 178,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 3,
+      "value": "103"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 3,
+      "value": "106"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 3,
+      "value": "107"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 3,
+      "value": "111"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "112"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 3,
+      "value": "113"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 178,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 3,
+      "value": "103"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 257,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 3,
+      "value": "106"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 3,
+      "value": "107"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 3,
+      "value": "111"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 3,
+      "value": "112"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/ButtonType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 404,
+      "length": 3,
+      "value": "113"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Helpers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 690,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Helpers.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2004,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 182,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 2,
       "value": "51"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 223,
       "length": 2,
       "value": "52"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 2,
       "value": "53"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 266,
       "length": 2,
       "value": "54"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
       "kind": "IntegerLiteral",
       "offset": 284,
       "length": 2,
       "value": "56"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 182,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 2,
+      "value": "51"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 2,
+      "value": "53"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 182,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 201,
+      "length": 2,
+      "value": "51"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 2,
+      "value": "52"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 2,
+      "value": "53"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 266,
+      "length": 2,
+      "value": "54"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/LogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 284,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
       "kind": "IntegerLiteral",
       "offset": 212,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
       "kind": "IntegerLiteral",
       "offset": 270,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 212,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/InAppMessageRefreshType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 270,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
       "kind": "BooleanLiteral",
       "offset": 566,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 41,
+      "value": "\"No message with id '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 8,
+      "value": "\"' found\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 41,
+      "value": "\"No message with id '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 1190,
+      "length": 8,
+      "value": "\"' found\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 1537,
+      "length": 41,
+      "value": "\"No message with id '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 1570,
+      "length": 8,
+      "value": "\"' found\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 66,
+      "value": "\"ButtonId '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 1753,
+      "length": 29,
+      "value": "\"' does not exist in message '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 1794,
+      "length": 3,
+      "value": "\"'.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3398,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3433,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3467,
+      "length": 6,
+      "value": "\"body\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3499,
+      "length": 15,
+      "value": "\"receptionDate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3571,
+      "length": 14,
+      "value": "\"creationDate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3641,
+      "length": 13,
+      "value": "\"hasBeenSeen\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3684,
+      "length": 9,
+      "value": "\"buttons\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3750,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 3852,
+      "length": 16,
+      "value": "\"expirationDate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 4054,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 4092,
+      "length": 7,
+      "value": "\"label\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 4126,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+IAM.swift",
+      "kind": "StringLiteral",
+      "offset": 4160,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
       "kind": "IntegerLiteral",
       "offset": 188,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 2,
       "value": "91"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 2,
       "value": "92"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
       "kind": "IntegerLiteral",
       "offset": 254,
       "length": 2,
       "value": "93"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
       "kind": "IntegerLiteral",
       "offset": 275,
       "length": 2,
       "value": "94"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 2,
+      "value": "91"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 2,
+      "value": "92"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 2,
+      "value": "93"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 2,
+      "value": "94"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 2,
+      "value": "91"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 2,
+      "value": "92"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 2,
+      "value": "93"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Events\/EventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 275,
+      "length": 2,
+      "value": "94"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Push.swift",
+      "kind": "BooleanLiteral",
+      "offset": 949,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Push.swift",
+      "kind": "StringLiteral",
+      "offset": 1234,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Push.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 31,
+      "value": "\"[FlutterSelligent] \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Delegates\/FlutterSelligentUniversalLinksDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 23,
+      "value": "\"UniversalLinkExecuted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Delegates\/FlutterSelligentUniversalLinksDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 23,
+      "value": "\"UniversalLinkExecuted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Delegates\/FlutterSelligentUniversalLinksDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "BooleanLiteral",
+      "offset": 433,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 48,
+      "value": "\"Wrong or missing event 'type' inside the data.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 584,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "Dictionary",
+      "offset": 662,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 13,
+      "value": "\"shouldCache\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "BooleanLiteral",
+      "offset": 816,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "BooleanLiteral",
+      "offset": 903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 2648,
+      "length": 55,
+      "value": "\"Retrieved inapp messages not of type [SMInAppMessage]\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 2796,
+      "length": 22,
+      "value": "\"ReceivedInAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 2826,
+      "length": 22,
+      "value": "\"ReceivedInAppMessage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 2870,
+      "length": 10,
+      "value": "\"messages\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 2914,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 2950,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3201,
+      "length": 40,
+      "value": "\"Retrieved device id not of type String\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3334,
+      "length": 18,
+      "value": "\"ReceivedDeviceId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3360,
+      "length": 18,
+      "value": "\"ReceivedDeviceId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3388,
+      "length": 10,
+      "value": "\"deviceId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3653,
+      "length": 58,
+      "value": "\"Retrieved push message not of type SMNotificationMessage\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3804,
+      "length": 28,
+      "value": "\"ReceivedRemoteNotification\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3840,
+      "length": 28,
+      "value": "\"ReceivedRemoteNotification\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3890,
+      "length": 8,
+      "value": "\"pushId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 3931,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4098,
+      "length": 25,
+      "value": "\"WillDisplayNotification\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4131,
+      "length": 25,
+      "value": "\"WillDisplayNotification\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4303,
+      "length": 25,
+      "value": "\"WillDismissNotification\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4336,
+      "length": 25,
+      "value": "\"WillDismissNotification\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4580,
+      "length": 37,
+      "value": "\"Retrieved button not of type SMLink\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4710,
+      "length": 15,
+      "value": "\"ButtonClicked\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4733,
+      "length": 15,
+      "value": "\"ButtonClicked\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4770,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4828,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4861,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/FlutterSelligent+Events.swift",
+      "kind": "StringLiteral",
+      "offset": 4898,
+      "length": 7,
+      "value": "\"label\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/RemoteMessageDisplayType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 202,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 220,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 255,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 274,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 202,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 202,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 220,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 274,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Settings\/ClearCacheInterval.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
       "kind": "BooleanLiteral",
       "offset": 495,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
       "kind": "BooleanLiteral",
       "offset": 715,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/marcbiosca\/Documents\/FlutterSDK\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
       "kind": "Dictionary",
       "offset": 1179,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 1223,
+      "length": 24,
+      "value": "\"FLUTTER_SELLIGENT_JSON\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 11,
+      "value": "\"selligent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 1402,
+      "length": 23,
+      "value": "\"selligent\/\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 1424,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 1442,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 1480,
+      "length": 150,
+      "value": "\"Unable to start SelligentMobileSDK, no 'selligent.json' file found. Please add a 'selligent.json' file as a bundle resource of your iOS application.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 2264,
+      "length": 123,
+      "value": "\"Unable to start SelligentMobileSDK, error while loading the 'selligent.json' file due to missing key '\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 2385,
+      "length": 3,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 2481,
+      "length": 135,
+      "value": "\"Unable to start SelligentMobileSDK, error while loading the 'selligent.json' file due to a type mismatch: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 2615,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 2667,
+      "length": 126,
+      "value": "\"Unable to start SelligentMobileSDK, an error occurred while loading the 'selligent.json' file: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "StringLiteral",
+      "offset": 2792,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2989,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3602,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/FlutterSelligent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3733,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/native\/ios\/sdk\/source\/Manager\/InAppMessageStylingTemplate.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 27,
+      "value": "\"FlutterSelligentMobileSDK.InAppMessageStylingTemplate\""
     }
   ]
 }

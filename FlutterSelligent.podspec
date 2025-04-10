@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                = "FlutterSelligent"
   s.authors             = "Marigold Engage <mobile@selligent.com>"
-  s.version             = "0.1.0"
+  s.version             = "0.1.6"
   s.summary             = "Flutter wrapper for the Marigold Engage Android and iOS SDKs"
   s.description         = "Flutter wrapper for the Marigold Engage Android and iOS SDKs"
   s.homepage            = "https://github.com/SelligentMarketingCloud/MobileSDK-Flutter#readme"
