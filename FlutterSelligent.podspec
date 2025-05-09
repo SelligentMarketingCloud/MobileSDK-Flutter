@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                = "FlutterSelligent"
   s.authors             = "Marigold Engage <mobile@selligent.com>"
-  s.version             = "0.1.0"
+  s.version             = "1.0.0"
   s.summary             = "Flutter wrapper for the Marigold Engage Android and iOS SDKs"
   s.description         = "Flutter wrapper for the Marigold Engage Android and iOS SDKs"
   s.homepage            = "https://github.com/SelligentMarketingCloud/MobileSDK-Flutter#readme"
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "ios/FlutterSelligentMobileSDK.xcframework"
 
-  s.dependency "SelligentMobileSDK/Framework", "3.8.5"
+  s.dependency "SelligentMobileSDK/Framework", "3.8.6"
 end
