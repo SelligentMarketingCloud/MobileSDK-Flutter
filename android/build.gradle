@@ -1,0 +1,169 @@
+import com.android.build.api.variant.BuildConfigField
+import java.util.regex.*
+
+group = "com.selligent.flutterselligent"
+version = "1.0.0"
+
+buildscript {
+    ext.kotlin_version = "1.8.22"
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.7.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
+
+android {
+    namespace = "com.selligent.flutterselligent"
+
+    compileSdk = 35
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/kotlin"
+        test.java.srcDirs += "src/test/kotlin"
+    }
+
+    defaultConfig {
+        minSdk = 21
+    }
+
+    dependencies {
+        testImplementation("org.jetbrains.kotlin:kotlin-test")
+        testImplementation("org.mockito:mockito-core:5.0.0")
+    }
+
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
+
+            testLogging {
+               events "passed", "skipped", "failed", "standardOut", "standardError"
+               outputs.upToDateWhen {false}
+               showStandardStreams = true
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.selligent.sdk:selligent_mobile_sdk:4.7.0'
+    implementation 'com.selligent.sdk:selligent_mobile_flutter_sdk:1.0.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.google.firebase:firebase-messaging:23.4.1'
+    implementation 'androidx.work:work-runtime:2.9.0'
+    implementation 'androidx.concurrent:concurrent-futures:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.gms:play-services-maps:19.0.0'
+    implementation 'com.google.android.material:material:1.12.0'
+}
+
+androidComponents {
+    onVariants(selector(), { variant ->
+        def selligentSettings = loadSelligentSettings(variant)
+
+        if (selligentSettings != null) {
+            try {
+                variant.buildConfigFields.put("SELLIGENT_SETTINGS", new BuildConfigField("String", "\"" + selligentSettings + "\"", "Selligent settings"))
+            }
+            catch (Exception ignored) {
+                throw new Exception("Selligent requires Android Gradle plugin version 8.1.2 or higher.")
+            }
+        }
+    })
+}
+
+def loadSelligentSettings(variant) {
+    def currentFlavor = getCurrentFlavor()
+    def defaultFileName = "selligent.json"
+    def variantFileName = "selligent.${variant.getName()}.json"
+    def resultingSettings = null
+
+    File variantFile = getFile(variantFileName)
+    File defaultFile = getFile(defaultFileName)
+    File flavorFile = getFile("$currentFlavor/$defaultFileName")
+
+    if (variantFile.exists()) {
+        println("Reading Marigold Engage properties for variant ${variant.getName()} from $variantFile.path")
+        resultingSettings = ""
+
+        variantFile.eachLine { String line ->
+            resultingSettings += line.replace("\"", "\\\"").replaceAll("\\s", "")
+        }
+    }
+    else if (currentFlavor != "" && flavorFile.exists()) {
+        println("Reading Marigold Engage properties for flavor $currentFlavor using $flavorFile.path")
+        resultingSettings = ""
+
+        flavorFile.eachLine { String line ->
+            resultingSettings += line.replace("\"", "\\\"").replaceAll("\\s", "")
+        }
+    }
+    else if (defaultFile.exists()) {
+        println("Reading default Marigold Engage properties from ${defaultFile.path} (no variant specific nor flavor $defaultFileName were found)")
+        resultingSettings = ""
+
+        defaultFile.eachLine { String line ->
+            resultingSettings += line.replace("\"", "\\\"").replaceAll("\\s", "")
+        }
+    }
+    else {
+        println("WARNING: No selligent.json file could be found for the given task. Disregard this message if the executing task is not building/executing the app.")
+    }
+
+    return resultingSettings
+}
+
+def getFile(filePath) {
+    File defaultFile = new File("$project.rootDir/../$filePath")
+    File unifiedLocationFile = new File("$project.rootDir/../selligent/$filePath")
+
+    if (defaultFile.exists()) {
+        println("selligent.json found in the root of the project")
+        return defaultFile
+    }
+    else if (unifiedLocationFile.exists()) {
+        println("selligent.json found in the unified `selligent` folder")
+    }
+
+    return unifiedLocationFile
+}
+
+def getCurrentFlavor() {
+    Gradle gradle = getGradle()
+    String tskReqStr = gradle.getStartParameter().getTaskRequests().toString()
+    Pattern pattern = Pattern.compile("(install|assemble|bundle)(\\w+)(Release|Debug)")
+    Matcher matcher = pattern.matcher(tskReqStr)
+
+    if (matcher.find()) {
+        return matcher.group(2).toLowerCase()
+    }
+    else {
+        return ""
+    }
+}
