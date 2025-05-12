@@ -15,6 +15,7 @@ class MethodChannelFlutterselligent extends FlutterselligentPlatform {
   final log = Logger('FlutterSelligent');
   Function(BroadcastEvent event) handleEvents = ((BroadcastEvent event) {});
   GlobalKey<NavigatorState>? appNavigatorKey;
+  String displayingIAM = "";
 
   MethodChannelFlutterselligent() {
     log.onRecord.listen((record) {
@@ -56,15 +57,16 @@ class MethodChannelFlutterselligent extends FlutterselligentPlatform {
           ));
         }
         else if (eventType == BroadcastEventType.receivedIAM.value) {
-          var newMessages = data['messages'].map((m) {
-            var message = m as Map<Object?, Object?>;
-            return InAppMessageEventData(message['id'] as String, message['title'] as String);
-          }).toList();
+          List<InAppMessageEventData> newMessages = [];
+
+          for (var message in data['messages']) {
+            newMessages.add(InAppMessageEventData(message['id'] as String, message['title'] as String));
+          }
 
           handleEvents(BroadcastEvent(
             BroadcastEventType.receivedIAM,
             InAppMessageEventListData(
-              newMessages,
+              newMessages
             )
           ));
         }
@@ -81,37 +83,9 @@ class MethodChannelFlutterselligent extends FlutterselligentPlatform {
           ));
         }
         else if (eventType == BroadcastEventType.displayingIAM.value) {
-          var appContext = appNavigatorKey?.currentState?.overlay?.context;
-          var messages = await getInAppMessages();
           var messageId = data['id'] as String;
-          var message = messages.where((m) => m.id == messageId).firstOrNull;
 
-          if (message != null && appContext != null && appContext.mounted && message.type == InAppMessageType.alert) {
-            List<TextButton> buttons = [];
-
-            setInAppMessageAsSeen(messageId);
-
-            for (var button in message.buttons) {
-              buttons.add(
-                TextButton(
-                  style: TextButton.styleFrom(textStyle: Theme.of(appContext).textTheme.labelLarge),
-                  child: Text(button.label),
-                  onPressed: () {
-                    executeButtonAction(button.id, message.id);
-                    Navigator.of(appContext).pop();
-                  }
-              ));
-            }
-
-            showDialog(context: appContext, builder: (x) => AlertDialog(
-              title: Text(message.title),
-              content: Text(message.body),
-              actions: buttons
-            ));
-          }
-          else {
-            displayNotification(messageId);
-          }
+          await displayIAM(messageId);
 
           handleEvents(BroadcastEvent(
             BroadcastEventType.displayingIAM,
@@ -125,6 +99,7 @@ class MethodChannelFlutterselligent extends FlutterselligentPlatform {
           handleEvents(BroadcastEvent(BroadcastEventType.displayNotification, null));
         }
         else if (eventType == BroadcastEventType.dismissNotification.value) {
+          displayingIAM = "";
           handleEvents(BroadcastEvent(BroadcastEventType.dismissNotification, null));
         }
         else if (call.arguments['name'] == BroadcastEventType.customEvent.value) {
@@ -345,12 +320,7 @@ class MethodChannelFlutterselligent extends FlutterselligentPlatform {
 
   @override
   Future<void> displayNotification(String notificationId, {String? templateId = ''}) async {
-    try {
-      await methodChannel.invokeMethod('displayNotification', { 'notificationId': notificationId, 'templateId': templateId  });
-    } 
-    on PlatformException catch(exception) {
-      log.severe('Exception when displaying the notification: ${exception.message}');
-    }
+    await displayIAM(notificationId, templateId: templateId);
   }
 
   @override
@@ -394,5 +364,51 @@ class MethodChannelFlutterselligent extends FlutterselligentPlatform {
     }
 
     return data;
+  }
+
+  Future<void> displayIAM(String messageId, {String? templateId = ''}) async {
+    var appContext = appNavigatorKey?.currentState?.overlay?.context;
+    var messages = await getInAppMessages();
+    var message = messages.where((m) => m.id == messageId).firstOrNull;
+
+    if (displayingIAM == messageId) { return; }
+
+    displayingIAM = messageId;
+
+    if (message != null && appContext != null && appContext.mounted && message.type == InAppMessageType.alert) {
+      List<TextButton> buttons = [];
+
+      setInAppMessageAsSeen(messageId);
+
+      for (var button in message.buttons) {
+        buttons.add(
+          TextButton(
+            style: TextButton.styleFrom(textStyle: Theme.of(appContext).textTheme.labelLarge),
+            child: Text(button.label),
+            onPressed: () {
+              executeButtonAction(button.id, message.id);
+              Navigator.of(appContext).pop();
+            }
+        ));
+      }
+
+      showDialog(context: appContext, builder: (x) => AlertDialog(
+        title: Text(message.title),
+        content: Text(message.body),
+        actions: buttons
+      ));
+    }
+    else {
+      await displayNotificationInternal(messageId, templateId: templateId);
+    }
+  }
+
+  Future<void> displayNotificationInternal(String notificationId, {String? templateId = ''}) async {
+    try {
+      await methodChannel.invokeMethod('displayNotification', { 'notificationId': notificationId, 'templateId': templateId  });
+    } 
+    on PlatformException catch(exception) {
+      log.severe('Exception when displaying the notification: ${exception.message}');
+    }
   }
 }

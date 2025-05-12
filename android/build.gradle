@@ -2,7 +2,7 @@ import com.android.build.api.variant.BuildConfigField
 import java.util.regex.*
 
 group = "com.selligent.flutterselligent"
-version = "1.0.0"
+version = "1.0.1"
 
 buildscript {
     ext.kotlin_version = "1.8.22"
@@ -70,7 +70,7 @@ android {
 
 dependencies {
     implementation 'com.selligent.sdk:selligent_mobile_sdk:4.7.0'
-    implementation 'com.selligent.sdk:selligent_mobile_flutter_sdk:1.0.0'
+    implementation 'com.selligent.sdk:selligent_mobile_flutter_sdk:1.0.1'
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.google.firebase:firebase-messaging:23.4.1'
     implementation 'androidx.work:work-runtime:2.9.0'
