@@ -139,7 +139,7 @@ Follow the [iOS](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/tree/m
         override fun onResume() {
             super.onResume()
 
-            FlutterselligentPlugin.INSTANCE.onNewIntent(intent, activity)
+            FlutterselligentPlugin.INSTANCE.onResume()
         }
 
         override fun onPause() {
