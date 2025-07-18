@@ -234,7 +234,7 @@ end
 ```
 
 Run `pod update` in your ios folder.
-Then, follow the [native iOS SDK documentation](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/edit/master/Documentation/README.md#notification-extensions).
+Then, follow the [native iOS SDK documentation](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/tree/master/Documentation#notification-extensions).
 Make sure the minimum deployment target of your extensions is the same as your main app's one.
 Go to your project's main app target  `Build Phases`, reorder the phases so the `[CP] Embed Pods Frameworks` is the last one and the `Thin Binary` is right above it.
 
