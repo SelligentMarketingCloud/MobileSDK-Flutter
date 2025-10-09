@@ -97,6 +97,7 @@ Follow the [iOS](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/tree/m
 
     ```kotlin
     import android.Manifest
+    import android.content.Intent
     import android.content.pm.PackageManager
     import android.os.Build
 
@@ -328,6 +329,10 @@ flutterSelligent.subscribeToEvents([], handle: (event) {
 ```
 
 ## In-App Messages
+
+In-App messages are messages retrieved periodically by the SDK.
+
+They are retrieved when the app becomes active (ie. at start, when going from background to foreground and when the orientation changes) ONLY if the last refresh is older than the value set for [inAppMessageRefreshType](#inappmessagerefreshtype).
 
 To enable them all you need to do is to set the proper [inAppMessageRefreshType](#inappmessagerefreshtype) value in the `selligent.json`.
 
