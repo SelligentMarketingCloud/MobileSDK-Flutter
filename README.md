@@ -74,6 +74,7 @@ This module supports the following SDK and tools:
             // You can alternatively specify a different file name (without the extension) from where to load the Marigold Engage configs (defaults to 'selligent')
             // var customLaunchOptions = launchOptions ?? .init()
             // customLaunchOptions[.init(rawValue: "FLUTTER_SELLIGENT_JSON")] = "alternativeFileName"
+            // customLaunchOptions[.init(rawValue: "FLUTTER_SELLIGENT_JSON")] = "selligent/alternativeFileName"
             // FlutterSelligent.configureWithLaunchOptions(customLaunchOptions)
 
             return super.application(application, didFinishLaunchingWithOptions: launchOptions)
@@ -126,4 +127,5 @@ This module supports the following SDK and tools:
     ```groovy
     android.defaults.buildfeatures.buildconfig=true
     ```
+
 
