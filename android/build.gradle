@@ -2,7 +2,7 @@ import com.android.build.api.variant.BuildConfigField
 import java.util.regex.*
 
 group = "com.selligent.flutterselligent"
-version = "1.0.1"
+version = "1.1.0"
 
 buildscript {
     ext.kotlin_version = "1.8.22"
@@ -69,8 +69,8 @@ android {
 }
 
 dependencies {
-    implementation 'com.selligent.sdk:selligent_mobile_sdk:4.7.0'
-    implementation 'com.selligent.sdk:selligent_mobile_flutter_sdk:1.0.1'
+    implementation 'com.selligent.sdk:selligent_mobile_sdk:4.7.1'
+    implementation 'com.selligent.sdk:selligent_mobile_flutter_sdk:1.1.0'
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'com.google.firebase:firebase-messaging:23.4.1'
     implementation 'androidx.work:work-runtime:2.9.0'
@@ -109,7 +109,7 @@ def loadSelligentSettings(variant) {
     File flavorFile = getFile("$currentFlavor/$defaultFileName")
 
     if (variantFile.exists()) {
-        println("Reading Marigold Engage properties for variant ${variant.getName()} from $variantFile.path")
+        println("Reading Selligent by Zeta properties for variant ${variant.getName()} from $variantFile.path")
         resultingSettings = ""
 
         variantFile.eachLine { String line ->
@@ -117,7 +117,7 @@ def loadSelligentSettings(variant) {
         }
     }
     else if (currentFlavor != "" && flavorFile.exists()) {
-        println("Reading Marigold Engage properties for flavor $currentFlavor using $flavorFile.path")
+        println("Reading Selligent by Zeta properties for flavor $currentFlavor using $flavorFile.path")
         resultingSettings = ""
 
         flavorFile.eachLine { String line ->
@@ -125,7 +125,7 @@ def loadSelligentSettings(variant) {
         }
     }
     else if (defaultFile.exists()) {
-        println("Reading default Marigold Engage properties from ${defaultFile.path} (no variant specific nor flavor $defaultFileName were found)")
+        println("Reading default Selligent by Zeta properties from ${defaultFile.path} (no variant specific nor flavor $defaultFileName were found)")
         resultingSettings = ""
 
         defaultFile.eachLine { String line ->

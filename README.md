@@ -1,14 +1,14 @@
-# Marigold Engage-Flutter (flutterselligent)
+# Selligent by Zeta-Flutter (flutterselligent)
 
-This module provides an API for the usage of the Marigold Engage Mobile SDKs in Flutter.
+This module provides an API for the usage of the Selligent by Zeta Mobile SDKs in Flutter.
 
-## Marigold Engage-Flutter Integration
+## Selligent by Zeta-Flutter Integration
 
 This module supports the following SDK and tools:
 
 | SDK                                                                            | Version |
 | ------------------------------------------------------------------------------ |---------|
-| [Android SDK](https://github.com/SelligentMarketingCloud/MobileSDK-Android)    | 4.7.0   |
+| [Android SDK](https://github.com/SelligentMarketingCloud/MobileSDK-Android)    | 4.7.1   |
 | [iOS SDK](https://github.com/SelligentMarketingCloud/MobileSDK-iOS)            | 3.8.6   |
 | Flutter                                                                        | 3.3.0   |
 | Flutter SDK                                                                    | 3.7.0   |
@@ -71,7 +71,7 @@ This module supports the following SDK and tools:
             FlutterSelligent.configureWithLaunchOptions(launchOptions ?? [:])
 
             // OR
-            // You can alternatively specify a different file name (without the extension) from where to load the Marigold Engage configs (defaults to 'selligent')
+            // You can alternatively specify a different file name (without the extension) from where to load the Selligent by Zeta configs (defaults to 'selligent')
             // var customLaunchOptions = launchOptions ?? .init()
             // customLaunchOptions[.init(rawValue: "FLUTTER_SELLIGENT_JSON")] = "alternativeFileName"
             // customLaunchOptions[.init(rawValue: "FLUTTER_SELLIGENT_JSON")] = "selligent/alternativeFileName"
@@ -127,5 +127,3 @@ This module supports the following SDK and tools:
     ```groovy
     android.defaults.buildfeatures.buildconfig=true
     ```
-
-

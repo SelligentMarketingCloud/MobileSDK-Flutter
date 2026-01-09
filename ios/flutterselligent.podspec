@@ -4,10 +4,10 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutterselligent'
-  s.authors          = "Marigold Engage <mobile@selligent.com>"
-  s.version          = '1.0.1'
-  s.summary          = 'Flutter wrapper for the Marigold Engage Android and iOS SDKs'
-  s.description      = 'Flutter wrapper for the Marigold Engage Android and iOS SDKs'
+  s.authors          = "Selligent by Zeta <mobile@selligent.com>"
+  s.version          = '1.1.0'
+  s.summary          = 'Flutter wrapper for the Selligent by Zeta Android and iOS SDKs'
+  s.description      = 'Flutter wrapper for the Selligent by Zeta Android and iOS SDKs'
   s.homepage         = 'https://github.com/SelligentMarketingCloud/MobileSDK-Flutter#readme'
   s.license          = "MIT"
   s.source           = { :path => '.' }
@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
-  s.dependency "FlutterSelligent", "1.0.1"
+  s.dependency "FlutterSelligent", "1.1.0"
 end

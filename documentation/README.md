@@ -4,17 +4,17 @@
 
 Copyright
 
-The contents of this manual cover material copyrighted by Marigold. Marigold reserves all intellectual property rights on the manual, which should be treated as confidential information as defined under the agreed upon software licence/lease terms and conditions.
+The contents of this manual cover material copyrighted by Selligent. Selligent reserves all intellectual property rights on the manual, which should be treated as confidential information as defined under the agreed upon software licence/lease terms and conditions.
 
-The use and distribution of this manual is strictly limited to authorised users of the Marigold Interactive Marketing Software (hereafter the "Software") and can only be used for the purpose of using the Software under the agreed upon software licence/lease terms and conditions. Upon termination of the right to use the Software, this manual and any copies made must either be returned to Marigold or be destroyed, at the latest two weeks after the right to use the Software has ended.
+The use and distribution of this manual is strictly limited to authorised users of the Selligent Interactive Marketing Software (hereafter the "Software") and can only be used for the purpose of using the Software under the agreed upon software licence/lease terms and conditions. Upon termination of the right to use the Software, this manual and any copies made must either be returned to Selligent or be destroyed, at the latest two weeks after the right to use the Software has ended.
 
-With the exception of the first sentence of the previous paragraph, no part of this manual may be reprinted or reproduced or distributed or utilised in any form or by any electronic, mechanical or other means, not known or hereafter invented, included photocopying and recording, or in any information storage or retrieval or distribution system, without the prior permission in writing from Marigold.
+With the exception of the first sentence of the previous paragraph, no part of this manual may be reprinted or reproduced or distributed or utilised in any form or by any electronic, mechanical or other means, not known or hereafter invented, included photocopying and recording, or in any information storage or retrieval or distribution system, without the prior permission in writing from Selligent.
 
-Marigold will not be responsible or liable for any accidental or inevitable damage that may result from unauthorised access or modifications.
+Selligent will not be responsible or liable for any accidental or inevitable damage that may result from unauthorised access or modifications.
 
 User is aware that this manual may contain errors or inaccuracies and that it may be revised without advance notice. This manual is updated frequently.
 
-Marigold welcomes any recommendations or suggestions regarding the manual, as it helps to continuously improve the quality of our products and manuals.
+Selligent welcomes any recommendations or suggestions regarding the manual, as it helps to continuously improve the quality of our products and manuals.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ Marigold welcomes any recommendations or suggestions regarding the manual, as it
     - [Rich Push Notifications](#rich-push-notifications)
       - [Universal Linking - iOS](#universal-linking---ios)
     - [Notification helper methods](#notification-helper-methods)
-      - [Disable Marigold Engage Push Notifications](#disable-marigold-engage-push-notifications)
+      - [Disable Selligent Push Notifications](#disable-selligent-push-notifications)
       - [Display last remote notification](#display-last-remote-notification)
       - [Display last remote notification content](#display-last-remote-notification-content)
       - [Retrieve last remote notification](#retrieve-last-remote-notification)
@@ -58,9 +58,9 @@ The following properties can be used in the `selligent.json` to further configur
 
 | Property                                    | Type | Description |
 | ------------------------------------------- | ------ | ------- |
-| url                                         | string | The Marigold Engage webservice url to be used to integrate with your Marigold Engage platform |
-| clientId                                    | string | The Marigold Engage client id to be used to integrate with your Marigold Engage platform |
-| privateKey                                  | string | The Marigold Engage private key to be used to integrate with your Marigold Engage platform |
+| url                                         | string | The Selligent webservice url to be used to integrate with your Selligent platform |
+| clientId                                    | string | The Selligent client id to be used to integrate with your Selligent platform |
+| privateKey                                  | string | The Selligent private key to be used to integrate with your Selligent platform |
 | interceptSelligentUniversalLinks            | boolean| (iOS Only) Optin to customly handle the execution of universal links coming from a Push/IAM [more information](#universal-linking---ios) |
 | clearCacheIntervalValue                     | [enum](#clearcacheintervalvalue) | How much time the SDK will keep things in cache |  
 | inAppMessageRefreshType                     | [enum](#inappmessagerefreshtype) | How often the SDK will check for new inapp messages |
@@ -243,7 +243,7 @@ Go to your project's main app target  `Build Phases`, reorder the phases so the 
 
 By default, universal links in a button from a Push/IAM will open the default browser, to avoid this and catch them on the App and apply any logic you want, you will need to add a property `interceptSelligentUniversalLinks` in the `selligent.json` with `true` as value.
 
-You can listen to the event `BroadcastEventType.universalLink` through the `flutterSelligent.subscribeToEvents` function, the event will get triggered when a `deeplink` button type is defined in Marigold Engage (whose URL scheme is `http` or `https`).
+You can listen to the event `BroadcastEventType.universalLink` through the `flutterSelligent.subscribeToEvents` function, the event will get triggered when a `deeplink` button type is defined in Selligent (whose URL scheme is `http` or `https`).
 
 ```dart
 flutterSelligent.subscribeToEvents([], handle: (event) {
@@ -256,9 +256,9 @@ flutterSelligent.subscribeToEvents([], handle: (event) {
 
 ### Notification helper methods
 
-#### Disable Marigold Engage Push Notifications
+#### Disable Selligent Push Notifications
 
-You can enable or disable Marigold Engage push notifications (not all push notifications for your app) by calling `flutterSelligent.enableNotifications` anytime you want (do note that for iOS, the first call to this method will prompt the user for the push permission).
+You can enable or disable Selligent push notifications (not all push notifications for your app) by calling `flutterSelligent.enableNotifications` anytime you want (do note that for iOS, the first call to this method will prompt the user for the push permission).
 
 ```dart
 flutterSelligent.enableNotifications(true)
@@ -332,7 +332,7 @@ flutterSelligent.subscribeToEvents([], handle: (event) {
 
 In-App messages are messages retrieved periodically by the SDK.
 
-They are retrieved when the app becomes active (ie. at start, when going from background to foreground and when the orientation changes) ONLY if the last refresh is older than the value set for [inAppMessageRefreshType](#inappmessagerefreshtype).
+They are retrieved when the app becomes active (ie. at startup, when going from background to foreground and when the orientation changes) ONLY if the last refresh is older than the value set for [inAppMessageRefreshType](#inappmessagerefreshtype).
 
 To enable them all you need to do is to set the proper [inAppMessageRefreshType](#inappmessagerefreshtype) value in the `selligent.json`.
 
@@ -387,9 +387,9 @@ FlutterSelligent.setInAppMessageStylingTemplates([template1, template2], default
 
 ### IAM Helper methods
 
-If you decide to display the IAM on your own (without `flutterSelligent.displayNotification`), listening for new messages with the `flutterSelligent.subscribeToEvents` and/or getting the full list with `flutterSelligent.getInAppMessages`. You will be able to build your own layout with the object provided from the mentioned functions and then you can use the helper methods described here to still push KPI statistics to the Marigold Engage platform:
+If you decide to display the IAM on your own (without `flutterSelligent.displayNotification`), listening for new messages with the `flutterSelligent.subscribeToEvents` and/or getting the full list with `flutterSelligent.getInAppMessages`. You will be able to build your own layout with the object provided from the mentioned functions and then you can use the helper methods described here to still push KPI statistics to the Selligent platform:
 
-- setInAppMessageAsSeen: sets an IAM as seen and sends the corresponding `Opened` event to the Marigold Engage platform
+- setInAppMessageAsSeen: sets an IAM as seen and sends the corresponding `Opened` event to the Selligent platform
 
     ```dart
     flutterSelligent.setInAppMessageAsSeen(message.id);
@@ -407,7 +407,7 @@ If you decide to display the IAM on your own (without `flutterSelligent.displayN
     flutterSelligent.setInAppMessageAsDeleted(message.id);
     ```
 
-- executeButtonAction: executes the action linked to an IAM button and sends the corresponding `Clicked` event to the Marigold Engage platform
+- executeButtonAction: executes the action linked to an IAM button and sends the corresponding `Clicked` event to the Selligent platform
 
     ```dart
     flutterSelligent.executeButtonAction(button.id, message.id);
@@ -433,7 +433,7 @@ flutterSelligent.sendEvent(EventType.custom, '', {
 
 ### Get lib version
 
-Returns the version of the installed native Marigold Engage SDK (string).
+Returns the version of the installed native Selligent SDK (string).
 
 ```dart
 await flutterSelligent.getVersionLib();
@@ -441,7 +441,7 @@ await flutterSelligent.getVersionLib();
 
 ### Get device id
 
-Returns the currently known Marigold Engage device Id (string).
+Returns the currently known Selligent device Id (string).
 
 ```dart
 await flutterSelligent.getDeviceId();
@@ -523,11 +523,11 @@ Defines the type of an event.
 
 | Name            | Type   | Value | Description       |
 | --------------- | ------ | ----- | ----------------- |
-| register   | number | 90    | Used to send a register event to the server with the custom email/profile identifier of the user, with the purpose of linking the device to an user and optionally storing some data at Marigold Engage platform side. This event will create a new user in your Marigold Engage database, if none was found (you can use an alternate key/value field to search for the user, in the data object, since by default the `identifier` one will use the `MAIL` column in your Marigold Engage database). |
-| unregister | number | 91    | Used to send an unregister event to the server with the custom email/profile identifier of the user, with the purpose of keeping track of a REGISTERED flag and optionally storing some data at Marigold Engage platform side (this event is not unlinking the user from the device (automatically), at the moment). |
-| login      | number | 92    | Used to send a login event to the server with the custom email/profile identifier of the user, with the purpose of linking the device to an user and optionally storing some data at Marigold Engage platform side. This event will **NOT** create a new user in your Marigold Engage database, if none found. |
-| logout     | number | 93    | Used to send a logout event to the server with the custom email/profile identifier of the user, with the purpose of keeping track of a LOGGED flag and optionally storing some data at Marigold Engage platform side (this event is not unlinking the user from the device (automatically), at the moment). |
-| custom          | number | 94    | Used to send a custom event to the server, with the purpose of keeping track of storing some data at Marigold Engage platform side. |
+| register   | number | 90    | Used to send a register event to the server with the custom email/profile identifier of the user, with the purpose of linking the device to an user and optionally storing some data at Selligent platform side. This event will create a new user in your Selligent database, if none was found (you can use an alternate key/value field to search for the user, in the data object, since by default the `identifier` one will use the `MAIL` column in your Selligent database). |
+| unregister | number | 91    | Used to send an unregister event to the server with the custom email/profile identifier of the user, with the purpose of keeping track of a REGISTERED flag and optionally storing some data at Selligent platform side (this event is not unlinking the user from the device (automatically), at the moment). |
+| login      | number | 92    | Used to send a login event to the server with the custom email/profile identifier of the user, with the purpose of linking the device to an user and optionally storing some data at Selligent platform side. This event will **NOT** create a new user in your Selligent database, if none found. |
+| logout     | number | 93    | Used to send a logout event to the server with the custom email/profile identifier of the user, with the purpose of keeping track of a LOGGED flag and optionally storing some data at Selligent platform side (this event is not unlinking the user from the device (automatically), at the moment). |
+| custom          | number | 94    | Used to send a custom event to the server, with the purpose of keeping track of storing some data at Selligent platform side. |
 
 ### NotificationButtonType
 
@@ -545,7 +545,7 @@ Defines the type of buttons for notifications or inapp messages.
 | broadcastEvent                | number | 107   | Sends a custom broadcast to the App       |
 | passbook                      | number | 111   | Opens a passbook URL                      |
 | deeplink                      | number | 112   | Executes a deeplink                       |
-| simple                        | number | 113   | Nothing done except forwarding the corresponding `Clicked` event to the Marigold Engage platform |
+| simple                        | number | 113   | Nothing done except forwarding the corresponding `Clicked` event to the Selligent platform |
 
 ### BroadcastEventType
 
