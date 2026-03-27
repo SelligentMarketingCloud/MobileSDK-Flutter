@@ -1,5 +1,9 @@
 # Changelog
 
+- __1.1.1__
+  - (Android) Add robustness to avoid potential crashes
+  - (Android) Raise target and compile sdk to 36
+
 - __1.1.0__
   - (iOS) Fix in-app messages date properties format same as Android (seconds -> milliseconds, no decimals)
   - (Android) Update native SDK 4.7.1 (IAM creation date empty bug)

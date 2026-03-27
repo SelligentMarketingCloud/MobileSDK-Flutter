@@ -14,7 +14,7 @@
 		</data>
 		<key>ios-arm64/FlutterSelligentMobileSDK.framework/Info.plist</key>
 		<data>
-		9DqVPAMmeZb88nd3t7bugqQsHDM=
+		vZHHKeZv65hjkbbxV6Gd6OUZdCs=
 		</data>
 		<key>ios-arm64/FlutterSelligentMobileSDK.framework/Modules/FlutterSelligentMobileSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FlutterSelligentMobileSDK.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		whp/mKejxgEMi7qVQtEUga5hLuo=
+		V9KN+sEhE/4XQ/1cUOAxAFt0c58=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/FlutterSelligentMobileSDK.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FlutterSelligentMobileSDK.framework/FlutterSelligentMobileSDK</key>
 		<data>
-		8QOhnXkOT0LqVo1TmChbZW7Yr7E=
+		v6nLOO7Ae3S/QWj2KjTkNAB1mMA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FlutterSelligentMobileSDK.framework/Headers/FlutterSelligentMobileSDK-Swift.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FlutterSelligentMobileSDK.framework/Info.plist</key>
 		<data>
-		UPTB8oh8lTkt84AlKVLeB2eE8HM=
+		bGRXBREdIa4RNFix284fGTHL8uE=
 		</data>
 		<key>ios-arm64_x86_64-simulator/FlutterSelligentMobileSDK.framework/Modules/FlutterSelligentMobileSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/FlutterSelligentMobileSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		EErgSvvDESz9elqrJQu+HShDVQU=
+		/L0+DsM0kTnHtF0z9j7uZIC9ZyY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -177,11 +177,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9DqVPAMmeZb88nd3t7bugqQsHDM=
+			vZHHKeZv65hjkbbxV6Gd6OUZdCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			MdX2H3zLF/rz5DtRmaQI6edgW+YakPnzAt+wKahLaV8=
+			G92unOzgpRL5ZzHpvO/ObW4Tc0qN5h42vub+eBId4JA=
 			</data>
 		</dict>
 		<key>ios-arm64/FlutterSelligentMobileSDK.framework/Modules/FlutterSelligentMobileSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -395,11 +395,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			whp/mKejxgEMi7qVQtEUga5hLuo=
+			V9KN+sEhE/4XQ/1cUOAxAFt0c58=
 			</data>
 			<key>hash2</key>
 			<data>
-			j4hoZuR8gjsWwM0nUXkUTFN7h9RMLfebXKdCt5Ot0aY=
+			HfsTa6jCRaym1X/FY23+jPTL85BtTpCLVrGayYlPm2c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/FlutterSelligentMobileSDK.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
@@ -422,11 +422,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8QOhnXkOT0LqVo1TmChbZW7Yr7E=
+			v6nLOO7Ae3S/QWj2KjTkNAB1mMA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/STj3FRCKhf4G7NKucEk/HlzKuUJBKQMydY7cPJ8Otw=
+			iX371vDpjWnPbX00TEUnVI1HboqImlGFXzWJWhUauOc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FlutterSelligentMobileSDK.framework/Headers/FlutterSelligentMobileSDK-Swift.h</key>
@@ -444,11 +444,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UPTB8oh8lTkt84AlKVLeB2eE8HM=
+			bGRXBREdIa4RNFix284fGTHL8uE=
 			</data>
 			<key>hash2</key>
 			<data>
-			jweuQid/nQJBv7cTC8qTs6IIaF0N1K1UEQcEQ8rf0FU=
+			YLKmZduJgoO66zbZ4fK98KTTbs2sD3a4Rq96D2PuQdc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/FlutterSelligentMobileSDK.framework/Modules/FlutterSelligentMobileSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -565,11 +565,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EErgSvvDESz9elqrJQu+HShDVQU=
+			/L0+DsM0kTnHtF0z9j7uZIC9ZyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8lOyS1rCziPIfyc/wulVqSkSFP18jP9maSSqxUCIpLg=
+			180gnd/8YGD0+CaUWKnXa69Xnzwt0PofLXCynrRlKzo=
 			</data>
 		</dict>
 	</dict>

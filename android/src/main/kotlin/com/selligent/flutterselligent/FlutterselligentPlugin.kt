@@ -84,13 +84,18 @@ class FlutterselligentPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
       activity!!.registerReceiver(this.receiver, this.receiver!!.intentFilter)
     }
 
+    if (Manager.getInstance() == null) {
+      Log.d(Manager.FLUTTER_SELLIGENT_NAME, "onHostResume: RNSelligent.getManager is null.")
+      return
+    }
+      
     Manager.getInstance().checkAndDisplayMessage(activity!!.intent, activity) { eventType, data ->
       broadcastEvent(eventType, eventType, data as HashMap)
     }
   }
 
   fun onPause() {
-    if (activity == null) { return }
+    if (activity == null || this.receiver == null) { return }
 
     activity!!.unregisterReceiver(this.receiver)
   }
