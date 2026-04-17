@@ -85,7 +85,6 @@ class FlutterselligentPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
     }
 
     if (Manager.getInstance() == null) {
-      Log.d(Manager.FLUTTER_SELLIGENT_NAME, "onHostResume: RNSelligent.getManager is null.")
       return
     }
       

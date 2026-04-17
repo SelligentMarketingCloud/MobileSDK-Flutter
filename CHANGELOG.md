@@ -1,5 +1,8 @@
 # Changelog
 
+- __1.1.2__
+  - (Android) Fix error introduced in 1.1.1 missing log import
+
 - __1.1.1__
   - (Android) Add robustness to avoid potential crashes
   - (Android) Raise target and compile sdk to 36
