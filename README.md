@@ -8,7 +8,7 @@ This module supports the following SDK and tools:
 
 | SDK                                                                            | Version |
 | ------------------------------------------------------------------------------ |---------|
-| [Android SDK](https://github.com/SelligentMarketingCloud/MobileSDK-Android)    | 4.7.1   |
+| [Android SDK](https://github.com/SelligentMarketingCloud/MobileSDK-Android)    | 4.8.0   |
 | [iOS SDK](https://github.com/SelligentMarketingCloud/MobileSDK-iOS)            | 3.8.6   |
 | Flutter                                                                        | 3.3.0   |
 | Flutter SDK                                                                    | 3.7.0   |

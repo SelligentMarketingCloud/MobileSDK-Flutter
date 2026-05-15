@@ -1,5 +1,11 @@
 # Changelog
 
+- __1.1.4__
+  - (Android) Update native SDK 4.8.0 (clicking a push in background was recreating the Activity)
+  - (Android) Update Android Gradle plugin to version 9.2.0
+  - (Android) Raise target and compile sdk to 37
+  - (Android) Raise min sdk to 23
+
 - __1.1.2__
   - (Android) Fix error introduced in 1.1.1 missing log import
 
