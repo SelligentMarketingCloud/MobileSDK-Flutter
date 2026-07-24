@@ -85,6 +85,26 @@ The following properties can be used in the `selligent.json` to further configur
 
 Follow the [iOS](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/tree/master/Documentation#create-an-apns-key) & [Android](https://github.com/SelligentMarketingCloud/MobileSDK-Android/tree/master/Documentation#creating-an-application) native SDKs guides in order to optin for push notifications in Apple & Google.
 
+Somewhere in your Flutter app (normally done as soon as possible but can also be done when certain page is reached), you will need to call `Flutterselligent().enableNotifications()` to prompt the user for the push notification permission or the `Flutterselligent().registerForProvisionalRemoteNotification()` (this option is only available for iOS 12+) if you want to get a provisional permission before asking the user for the normal one, and `Flutterselligent().executePushAction(navigatorKey)` after all the initializations to tell the SDK that the flutter UI is ready to handle the push click.
+
+```dart
+import 'package:flutterselligent/flutterselligent.dart';
+import 'package:flutterselligent/flutterselligent_constants.dart';
+
+final navigatorKey = GlobalKey<NavigatorState>();
+final flutterSelligent = Flutterselligent();
+
+flutterSelligent.enableNotifications(true);
+flutterSelligent.executePushAction(navigatorKey);
+
+// Navigator key must be part of your MaterialApp
+@override
+Widget build(BuildContext context) {
+    return MaterialApp(
+        navigatorKey: navigatorKey,
+        ...
+```
+
 **For Android**, if targeting API level 33 and above:
 
 1. Add the following line to AndroidManifest.xml:
@@ -194,26 +214,6 @@ Follow the [iOS](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/tree/m
     ```
 
 2. Follow section [**Create an APNS Key**](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/tree/master/Documentation#apns_key), of the native documentation.
-
-3. Somewhere in your Flutter app (normally done as soon as possible but can also be done when certain page is reached), you will need to call `Flutterselligent().enableNotifications()` to prompt the user for the push notification permission or the `Flutterselligent().registerForProvisionalRemoteNotification()` (This option is only available for iOS 12+) if you want to get a provisional permission before asking the user for the normal one, and `Flutterselligent().executePushAction(navigatorKey)` after all the initializations to tell the SDK that the flutter UI is ready to handle the push click.
-
-    ```dart
-    import 'package:flutterselligent/flutterselligent.dart';
-    import 'package:flutterselligent/flutterselligent_constants.dart';
-
-    final navigatorKey = GlobalKey<NavigatorState>();
-    final flutterSelligent = Flutterselligent();
-
-    flutterSelligent.enableNotifications(true);
-    flutterSelligent.executePushAction(navigatorKey);
-
-    // Navigator key must be part of your MaterialApp
-    @override
-    Widget build(BuildContext context) {
-        return MaterialApp(
-            navigatorKey: navigatorKey,
-            ...
-    ```
 
 ### Rich Push Notifications
 
