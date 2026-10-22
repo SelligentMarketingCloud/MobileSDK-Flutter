@@ -1,5 +1,10 @@
 # Changelog
 
+- __1.2.3__
+  - (iOS) Add Swift Package Manager support and require iOS 15
+  - (iOS) Update native SDK to 3.10.1
+  - Flutter 3.3 and Dart 3.7 support. Swift Package Manager is used when the app enables it; older Flutter versions continue to use CocoaPods
+
 - __1.1.4__
   - (Android) Update native SDK 4.8.0 (clicking a push in background was recreating the Activity)
   - (Android) Update Android Gradle plugin to version 9.2.0

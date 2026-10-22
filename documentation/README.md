@@ -173,6 +173,13 @@ Widget build(BuildContext context) {
 
 **For iOS**:
 
+Flutter 3.24 and later can resolve this plugin with Swift Package Manager
+(SwiftPM). Flutter 3.44 and later do so by default. This SDK requires iOS 15
+or later. After upgrading an existing app, run `flutter clean`, `flutter pub get`,
+and `flutter run`; Xcode should show `FlutterGeneratedPluginSwiftPackage` as a
+Runner dependency and run Flutter's `prepare` pre-action. Older Flutter versions,
+and projects that disable SwiftPM, keep using CocoaPods.
+
 1. For push notifications you need to delegate some of the `AppDelegate` methods to the SDK:
 
     ```swift
@@ -218,26 +225,9 @@ Widget build(BuildContext context) {
 ### Rich Push Notifications
 
 **For iOS**, you will need to implement notification extensions and set the `appGroupId` in the `selligent.json` file.
-Import the native extensions SDK in your app's podfile, create targets for your extensions:
-
-```pod
-target 'ServiceExtension' do
-  use_frameworks!
-
-  pod 'SelligentMobileSDK/FrameworkExtension', '3.8.6'
-end
-
-target 'ContentExtension' do
-  use_frameworks!
-
-  pod 'SelligentMobileSDK/FrameworkExtension', '3.8.6'
-end
-```
-
-Run `pod update` in your ios folder.
+Add [MobileSDK-iOS](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/blob/v3.10.1/Package.swift) version `3.10.1` as a Swift package and link its `SelligentMobileExtensionsSDK` product to both the notification service and notification content extension targets. The same package also provides `SelligentMobileSDK` for native app targets.
 Then, follow the [native iOS SDK documentation](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/tree/master/Documentation#notification-extensions).
 Make sure the minimum deployment target of your extensions is the same as your main app's one.
-Go to your project's main app target  `Build Phases`, reorder the phases so the `[CP] Embed Pods Frameworks` is the last one and the `Thin Binary` is right above it.
 
 #### Universal Linking - iOS
 

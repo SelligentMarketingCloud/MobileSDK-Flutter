@@ -9,9 +9,9 @@ This module supports the following SDK and tools:
 | SDK                                                                            | Version |
 | ------------------------------------------------------------------------------ |---------|
 | [Android SDK](https://github.com/SelligentMarketingCloud/MobileSDK-Android)    | 4.8.0   |
-| [iOS SDK](https://github.com/SelligentMarketingCloud/MobileSDK-iOS)            | 3.8.6   |
+| [iOS SDK](https://github.com/SelligentMarketingCloud/MobileSDK-iOS)            | 3.10.1  |
 | Flutter                                                                        | 3.3.0   |
-| Flutter SDK                                                                    | 3.7.0   |
+| Dart SDK                                                                       | 3.7.0   |
 
 ## Installation
 
@@ -48,6 +48,17 @@ This module supports the following SDK and tools:
 > Check all the options that can be used in our [SDK full documentation](documentation/#working-with-the-selligentjson)
 
 ### iOS Specific installation
+
+Flutter 3.24 and later can integrate this plugin with Swift Package Manager
+(SwiftPM). Flutter 3.44 and later do so by default. This plugin supports
+SwiftPM on iOS 15 and later. Older Flutter versions, and projects that disable
+SwiftPM, keep using CocoaPods.
+
+After upgrading an existing app, run `flutter clean`, `flutter pub get`, and
+`flutter run`. In Xcode, verify that `FlutterGeneratedPluginSwiftPackage` is a
+Runner target dependency and that the Runner scheme has a `prepare` pre-action.
+See [Flutter's SwiftPM migration guide](https://docs.flutter.dev/packages-and-plugins/swift-package-manager/for-app-developers)
+for manual recovery steps.
 
 1. Drag and drop the `selligent.json` you created (or the full folder(s) containing it) to the Xcode project inside the `Copy Bundle Resources` in `Build phases` of your target:
 
